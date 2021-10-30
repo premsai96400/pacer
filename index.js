@@ -9,7 +9,7 @@ app.get("/home",()=>{
 
 app.get("/",()=>{
   console.log("req recived");
-  res.send("Done Loading!!");
+  res.redirect("https://mismatchesspotted.el.r.appspot.com/home");
 });
 
 
