@@ -1,9 +1,10 @@
 const express = require("express");
 
-const app=express();
+const app = express();
 
 app.get("/",()=>{
-  res.send("Done Loading");
+  console.log("req recived");
+  res.send("Done Loading!!");
 });
 
 app.listen(1000,()=>{
